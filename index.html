@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenZ Guide – A Life Skills Learning Hub for Teenagers</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>GenZ Guide</span>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="modules.html">Modules</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="stories.html">Stories</a>
+                <a href="badges.html">Badges</a>
+                <a href="help.html">Help</a>
+            </div>
+            <div class="nav-right">
+                <button class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="notifications">
+                    <i class="fas fa-bell"></i>
+                    <span class="notification-badge">3</span>
+                </div>
+                <div class="user-avatar">
+                    <img src="https://i.pravatar.cc/150?img=12" alt="User Avatar">
+                </div>
+            </div>
+            <button class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content" data-aos="fade-right">
+            <h1>Master Life One Skill at a Time!</h1>
+            <p class="hero-subtitle">Your journey to real-world skills starts here. Learn everything from finances to cooking, all while having fun!</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Life Skills</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">10K+</span>
+                    <span class="stat-label">Students</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Support</span>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <button class="btn primary"><i class="fas fa-rocket"></i> Get Started</button>
+                <button class="btn secondary"><i class="fas fa-play"></i> Watch Demo</button>
+            </div>
+        </div>
+        <div class="hero-video" data-aos="fade-left">
+            <div class="video-container">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Students Learning" class="hero-image">
+                <div class="play-button">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Modules -->
+    <section class="featured-modules">
+        <h2>Popular Life Skills</h2>
+        <div class="module-cards">
+            <!-- Finance Module -->
+            <div class="module-card finance" data-aos="fade-up" data-aos-delay="100">
+                <div class="module-card-image">
+                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f" alt="Finance Module">
+                    <div class="module-card-overlay">
+                        <i class="fas fa-wallet"></i>
+                        <span>Financial Literacy</span>
+                        <div class="quick-actions">
+                            <button class="quick-action-btn" title="Start Module">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="quick-action-btn" title="Add to Favorites">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                            <button class="quick-action-btn" title="Share Module">
+                                <i class="fas fa-share"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="module-card-content">
+                    <span class="module-difficulty difficulty-beginner">Beginner</span>
+                    <h3>Finance Basics</h3>
+                    <p>Master budgeting, savings, and smart spending habits for a secure future.</p>
+                    <div class="module-progress" title="35% Complete">
+                        <div class="progress-bar" style="width: 35%;"></div>
+                    </div>
+                    <div class="module-meta">
+                        <span><i class="fas fa-clock"></i> 4 weeks</span>
+                        <span><i class="fas fa-users"></i> 2.3k enrolled</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cooking Module -->
+            <div class="module-card cooking" data-aos="fade-up" data-aos-delay="200">
+                <div class="module-card-image">
+                    <img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f" alt="Cooking Module">
+                    <div class="module-card-overlay">
+                        <i class="fas fa-utensils"></i>
+                        <span>Culinary Skills</span>
+                        <div class="quick-actions">
+                            <button class="quick-action-btn" title="Start Module">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="quick-action-btn" title="Add to Favorites">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                            <button class="quick-action-btn" title="Share Module">
+                                <i class="fas fa-share"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="module-card-content">
+                    <span class="module-difficulty difficulty-intermediate">Intermediate</span>
+                    <h3>Cooking 101</h3>
+                    <p>Learn to prepare healthy, delicious meals on a student budget.</p>
+                    <div class="module-progress" title="50% Complete">
+                        <div class="progress-bar" style="width: 50%;"></div>
+                    </div>
+                    <div class="module-meta">
+                        <span><i class="fas fa-clock"></i> 6 weeks</span>
+                        <span><i class="fas fa-users"></i> 1.8k enrolled</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mental Health Module -->
+            <div class="module-card mental-health" data-aos="fade-up" data-aos-delay="300">
+                <div class="module-card-image">
+                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b" alt="Mental Health Module">
+                    <div class="module-card-overlay">
+                        <i class="fas fa-brain"></i>
+                        <span>Mental Wellness</span>
+                        <div class="quick-actions">
+                            <button class="quick-action-btn" title="Start Module">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="quick-action-btn" title="Add to Favorites">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                            <button class="quick-action-btn" title="Share Module">
+                                <i class="fas fa-share"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="module-card-content">
+                    <span class="module-difficulty difficulty-beginner">Beginner</span>
+                    <h3>Mental Wellness</h3>
+                    <p>Discover effective tools for stress management and self-care.</p>
+                    <div class="module-progress" title="20% Complete">
+                        <div class="progress-bar" style="width: 20%;"></div>
+                    </div>
+                    <div class="module-meta">
+                        <span><i class="fas fa-clock"></i> 8 weeks</span>
+                        <span><i class="fas fa-users"></i> 3.1k enrolled</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Real Stories -->
+    <section class="real-stories">
+        <h2>Real Stories from GenZ</h2>
+        <div class="story-cards">
+            <div class="story-card">
+                <div class="story-header">
+                    <img src="https://i.pravatar.cc/150?img=5" alt="User 1">
+                    <div class="story-meta">
+                        <h4>Alex, 17</h4>
+                        <span class="tag">First Job Win</span>
+                    </div>
+                </div>
+                <p>"The interview prep module helped me land my first part-time job!"</p>
+            </div>
+            <div class="story-card">
+                <div class="story-header">
+                    <img src="https://i.pravatar.cc/150?img=9" alt="User 2">
+                    <div class="story-meta">
+                        <h4>Sarah, 16</h4>
+                        <span class="tag">Budget Success</span>
+                    </div>
+                </div>
+                <p>"Finally learned how to manage my allowance and even start saving!"</p>
+            </div>
+        </div>
+        <button class="btn secondary">Share Your Story</button>
+    </section>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+        <a href="#" class="active">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="modules.html">
+            <i class="fas fa-book"></i>
+            <span>Learn</span>
+        </a>
+        <a href="badges.html">
+            <i class="fas fa-medal"></i>
+            <span>Rewards</span>
+        </a>
+        <a href="dashboard.html">
+            <i class="fas fa-user"></i>
+            <span>Me</span>
+        </a>
+    </nav>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
